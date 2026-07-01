@@ -6,6 +6,11 @@ A production-ready full-stack task management application built with the MERN st
 
 ---
 
+# Live Project
+
+![live link](https://task-tracker-steel-ten.vercel.app/)
+
+
 ## Features
 
 - **Full CRUD** — Create, read, update, and delete tasks
@@ -83,8 +88,7 @@ task-tracker/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/task-tracker.git
-cd task-tracker
+git clone https://github.com/muskan-am/task-tracker
 ```
 
 ### 2. Set up the backend
@@ -179,13 +183,13 @@ Base URL: `http://localhost:5000/api`
 ### Frontend → Vercel
 
 1. Push the repo to GitHub
-2. Import the project in [vercel.com](https://vercel.com) — set **Root Directory** to `client`
+2. Import the project in [vercel.com](https://task-tracker-steel-ten.vercel.app/) — set **Root Directory** to `client`
 3. Add environment variable: `VITE_API_BASE_URL=https://your-api.onrender.com/api`
 4. Deploy — Vercel auto-detects Vite
 
 ### Backend → Render
 
-1. Create a new **Web Service** in [render.com](https://render.com)
+1. Create a new **Web Service** in [render.com](https://task-tracker-fqb0.onrender.com)
 2. Connect your GitHub repo — set **Root Directory** to `server`
 3. **Build command:** `npm install`
 4. **Start command:** `npm start`
@@ -223,6 +227,6 @@ Base URL: `http://localhost:5000/api`
 
 ---
 
-## License
 
-MIT
+
+
