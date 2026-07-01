@@ -2,7 +2,7 @@
 
 A production-ready full-stack task management application built with the MERN stack.
 
-![TaskTracker Dashboard](https://placehold.co/1200x630/3b82f6/ffffff?text=TaskTracker+Dashboard)
+![TaskTracker Dashboard](https://github.com/muskan-am/task-tracker/blob/main/Screenshot%202026-07-02%20031705.png)
 
 ---
 
