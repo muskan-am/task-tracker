@@ -206,7 +206,7 @@ Base URL: `http://localhost:5000/api`
 
 | Dashboard | Create Task | Mobile View |
 |-----------|-------------|-------------|
-| ![Dashboard](https://github.com/muskan-am/task-tracker/blob/main/Screenshot%202026-07-02%20031705.png) | ![Create](https://placehold.co/400x250/f8fafc/64748b?text=Create+Task) | ![Mobile](https://placehold.co/200x400/f8fafc/64748b?text=Mobile) |
+| ![Dashboard](https://github.com/muskan-am/task-tracker/blob/main/Screenshot%202026-07-02%20031705.png) | ![Create](https://github.com/muskan-am/task-tracker/blob/main/Screenshot%202026-07-02%20032049.png) | ![Mobile](https://github.com/muskan-am/task-tracker/blob/main/Screenshot%202026-07-02%20032029.png) |
 
 ---
 
