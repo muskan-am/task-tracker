@@ -1,0 +1,28 @@
+# render.yaml — Render.com deployment configuration for the Express API
+# Docs: https://render.com/docs/yaml-spec
+
+services:
+  - type: web
+    name: task-tracker-api
+    runtime: node
+    region: oregon
+    plan: free
+
+    # Build & start
+    buildCommand: npm install
+    startCommand: npm start
+
+    # Health check — Render uses this to confirm the service is up
+    healthCheckPath: /api/health
+
+    # Environment variables — set the actual values in the Render dashboard
+    # or via render.yaml envVarGroups. NEVER commit real values here.
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 5000
+      - key: MONGO_URI
+        sync: false          # Set in Render dashboard — never committed
+      - key: CORS_ORIGIN
+        sync: false          # e.g. https://your-app.vercel.app
