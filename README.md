@@ -7,8 +7,7 @@ A production-ready full-stack task management application built with the MERN st
 ---
 
 # Live Project
-
-![live link](https://task-tracker-steel-ten.vercel.app/)
+[live link](https://task-tracker-steel-ten.vercel.app/)
 
 
 ## Features
